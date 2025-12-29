@@ -1,10 +1,14 @@
-# rust-rules
+# rulesets
 
-A concise Rust ruleset for agentic programming assistants.
+A collection of rulesets for agentic programming assistants.
 
 ## Overview
 
-RUST_RULES.md contains conventions for structuring Rust workspaces, organizing dependencies, writing documentation, and placing binary crates. These rules help AI coding assistants generate consistent, idiomatic Rust code that follows workspace best practices.
+This repository contains curated rules for various programming languages that help AI coding assistants generate consistent, idiomatic code following best practices.
+
+### Available Rulesets
+
+- **RUST_RULES.md** - Conventions for structuring Rust workspaces, organizing dependencies, writing documentation, and placing binary crates.
 
 ## Usage
 
