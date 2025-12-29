@@ -16,6 +16,9 @@ Dependencies should not specify versions in crate Cargo.toml files.
 Use workspace = true to inherit from the workspace.
 Optional dependencies use { workspace = true, optional = true }.
 
+Always use the latest stable versions of dependencies when possible.
+Regularly run `cargo update` and review changelogs for breaking changes.
+
 Group workspace dependencies into logical sections with comments:
 # Internal crates
 # DataFrames
