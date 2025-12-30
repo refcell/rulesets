@@ -44,7 +44,11 @@ Binary crates should be placed in the top-level bin/ directory.
 Keep main.rs files minimal, ideally under 100 lines.
 Binaries should parse arguments and delegate to library code.
 
-New projects should include scaffolding: Justfile for task automation, lychee.toml for link checking, .github/workflows for CI, and a concise README.md with status badges.
+New projects should include scaffolding: Justfile for task automation, lychee.toml for link checking, .github/workflows for CI, and a concise README.md with status badges. README files should be technical and plaintext. Avoid bullet points. Use short declarative sentences.
+
+Justfiles should have a default recipe that lists all available targets:
+default:
+    @just --list
 
 Prefer rstest table tests for concise parameterized testing when multiple inputs share the same test logic.
 

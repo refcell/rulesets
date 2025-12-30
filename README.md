@@ -1,29 +1,29 @@
 # rulesets
 
-A collection of rulesets for agentic programming assistants.
+Curated rules for AI coding assistants to generate consistent, idiomatic code.
 
-## Overview
+## Rulesets
 
-This repository contains curated rules for various programming languages that help AI coding assistants generate consistent, idiomatic code following best practices.
-
-### Available Rulesets
-
-- **RUST_RULES.md** - Conventions for structuring Rust workspaces, organizing dependencies, writing documentation, and placing binary crates.
+RUST_RULES.md contains conventions for Rust workspaces, dependency organization, documentation, and binary crate placement.
 
 ## Usage
 
-For Claude Code, copy the file to your project's `.claude/rules/` directory as a markdown file. Claude automatically loads all `.md` files from this directory.
+Claude Code loads all .md files from .claude/rules/ automatically.
 
 ```bash
-cp RUST_RULES.md /path/to/your/project/.claude/rules/rust.md
+cp RUST_RULES.md /path/to/project/.claude/rules/rust.md
 ```
 
-For Cursor, copy the file to `.cursor/rules/` and rename it with the `.mdc` extension. You can add YAML frontmatter to scope the rules to specific file patterns.
+Cursor uses .cursor/rules/ with .mdc extension. YAML frontmatter can scope rules to file patterns.
 
 ```bash
-cp RUST_RULES.md /path/to/your/project/.cursor/rules/rust.mdc
+cp RUST_RULES.md /path/to/project/.cursor/rules/rust.mdc
 ```
+
+## Ruleset Style
+
+Keep rules technical and plaintext. Avoid bullet points. Use short declarative sentences that state conventions directly.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE).
+MIT License - see LICENSE.
