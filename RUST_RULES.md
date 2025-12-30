@@ -43,3 +43,7 @@ This enables the #![doc = include_str!("../README.md")] pattern for nice crate d
 Binary crates should be placed in the top-level bin/ directory.
 Keep main.rs files minimal, ideally under 100 lines.
 Binaries should parse arguments and delegate to library code.
+
+New projects should include scaffolding: Justfile for task automation, lychee.toml for link checking, .github/workflows for CI, and a concise README.md with status badges.
+
+Prefer rstest table tests for concise parameterized testing when multiple inputs share the same test logic.
