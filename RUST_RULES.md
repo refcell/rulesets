@@ -47,3 +47,5 @@ Binaries should parse arguments and delegate to library code.
 New projects should include scaffolding: Justfile for task automation, lychee.toml for link checking, .github/workflows for CI, and a concise README.md with status badges.
 
 Prefer rstest table tests for concise parameterized testing when multiple inputs share the same test logic.
+
+Use derive_more crate for deriving common traits like Display, From, Into, Deref instead of manual implementations.
